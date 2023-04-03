@@ -61,6 +61,11 @@ nav.navbar {
   div.search {
     color: white;
     height: 16px;
+    width: 16px;
+    svg {
+      height: 16px;
+      width: 16px;
+    }
   }
 }
 
@@ -138,6 +143,10 @@ div.panel {
   }
   div.panel-body {
     padding: 5%;
+  }
+  svg {
+    height: 28px;
+    margin-right: 8px;
   }
 }
 
@@ -230,6 +239,11 @@ div.panel {
     img.thumbnail {
         width: 90vw;
     }
+  }
+
+  /* resize icons */
+  div.panel svg {
+    height: 24px;
   }
 }
 

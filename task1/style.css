@@ -58,6 +58,11 @@ nav.navbar div.nav-links {
 nav.navbar div.search {
   color: white;
   height: 16px;
+  width: 16px;
+}
+nav.navbar div.search svg {
+  height: 16px;
+  width: 16px;
 }
 
 footer {
@@ -133,6 +138,10 @@ div.panel div.panel-title h4 {
 div.panel div.panel-body {
   padding: 5%;
 }
+div.panel svg {
+  height: 28px;
+  margin-right: 8px;
+}
 
 /* media query to reset flexbox styles for mobile */
 @media screen and (max-width: 770px) {
@@ -199,5 +208,9 @@ div.panel div.panel-body {
   /* resize pictures */
   div.images-wrapper img.thumbnail {
     width: 90vw;
+  }
+  /* resize icons */
+  div.panel svg {
+    height: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
