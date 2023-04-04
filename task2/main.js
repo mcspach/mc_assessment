@@ -43,7 +43,7 @@ async function getFeed() {
         ${img.outerHTML} 
       </div>
       <h3>${art.querySelector("pubDate").innerHTML.substring(4, 16)}</h3>
-      <p>${art.querySelector("description").innerHTML}</p>
+      <p>${art.querySelector("description").innerHTML.replace('&amp;', '&')}</p>
     </article>
   `;
   });
